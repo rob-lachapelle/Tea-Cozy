@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: inherit;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.statement {
+  background-color: black;
+  width: 100%;
+}
+
+.tea {
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.pic img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+#nobgcolor {
+  background-color: transparent;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  height: 250px;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.statement h2, h3, h4, h5, span {
+  margin: 10px;
+}
+
+.location span {
+  font-size: 20px;
+}
+
+.contact {
+  height: 200px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copy {
+  height: 50px;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 50px;
+}
